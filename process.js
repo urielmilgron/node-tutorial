@@ -19,5 +19,5 @@ console.log(process.argv)
 //Current working directory, gives us the directory of the executed process.
 console.log(process.cwd())
 
-//Enviroments variables, you can create a environment var in console and show us in a console log
+//Enviroments variables, you can create a environment var in console and show us in a console log with process.env function
 console.log(process.env.CACA)
