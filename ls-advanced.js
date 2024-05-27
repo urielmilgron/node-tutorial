@@ -29,7 +29,7 @@ try{
     console.error("There was an error but I won't tell you what error.")
     process.exit(1)
 }
-const filePromises = files.map(async file => {
+const filePromises = files.map(async file => { //This map make a paralell promises, and show this all at time
     const filePath = path.join(folder, file)
     let stats
     try {
