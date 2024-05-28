@@ -2,15 +2,12 @@
   "dependencies": {
     "picocolors": "^1.0.1"
   },
-  "devDependencies": {
-    "standard": "^17.1.0"
-  },
   "name": "node-tutorial",
   "version": "1.0.0",
   "description": "Files to describes functions of node",
   "main": "ls-advanced.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node my-tests.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/urielmilgron/node-tutorial/issues"
   },
-  "homepage": "https://github.com/urielmilgron/node-tutorial#readme"
+  "homepage": "https://github.com/urielmilgron/node-tutorial#readme",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends":"standard"
+  }
 }
