@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "picocolors": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "description": "Files to describes functions of node",
+  "main": "ls-advanced.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielmilgron/node-tutorial.git"
+  },
+  "keywords": [
+    "tutorial",
+    "node-tutorial",
+    "midu-node"
+  ],
+  "author": "Brian Uriel Milgron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urielmilgron/node-tutorial/issues"
+  },
+  "homepage": "https://github.com/urielmilgron/node-tutorial#readme"
+}
